@@ -19,7 +19,7 @@ if (is_string($_GET["getheadlines"])) {
     $today = date("Y-m-d H:i:s");
     
     $cSession = curl_init();
-    curl_setopt($cSession,CURLOPT_URL,"https://newsapi.org/v2/top-headlines?sources=" . $newsselection . "&apiKey=:bowtie::arrow_forward:((go to newsapi.org for your own key))");
+    curl_setopt($cSession,CURLOPT_URL,"https://newsapi.org/v2/top-headlines?sources=" . $newsselection . "&apiKey=((go to newsapi.org for your own key))");
     curl_setopt($cSession,CURLOPT_RETURNTRANSFER,true);
     curl_setopt($cSession,CURLOPT_HEADER, false); 
     $headlines=curl_exec($cSession);
