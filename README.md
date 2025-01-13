@@ -1,7 +1,7 @@
 # newsy
 a simple news page based on https://newsapi.org
 
-running here https://www.democritus.biz/newsnous.php (updated 6/23/24 no changes really, just a new link)
+running here https://dothink.great-site.net/newsnous.php (updated 6/23/24 no changes really, just a new link)
 
 It's really barebones and a work in progress. The only reason I made it is because I got so used to using Ahmed Abdelsalam's(https://wb.gy/) https://github.com/geeksamu/angular-5-article-series demo with Angular for genuine news reading purposes. When my clone of his git stopped functioning about a month ago(today is 6/14/20) or so I realized his did too. It is some JS package dependency I bet and I can't troubleshoot JS like I can PHP.
 
